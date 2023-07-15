@@ -1,5 +1,12 @@
 
-class Instanceblock{
+class Newclass {
+
+    public Newclass()
+    {
+        System.out.println("parent class constructor is always called");
+    }
+}
+class Instanceblock extends  Newclass{
     int a;
     int b;
     static int count;

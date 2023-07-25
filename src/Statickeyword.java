@@ -45,6 +45,12 @@ class Staticblock{
 
 
 }
+class StaticNotOverrided extends Staticblock{
+    @Override //static methods don't participate overriding but in inheritance
+    public  void disp1() {
+        super.disp1();
+    }
+}
 public class Statickeyword {
     public static void main(String[]args){
         Staticblock sb=new Staticblock();
@@ -55,6 +61,8 @@ public class Statickeyword {
         sb.disp1();
         Staticblock.disp();
         sb.disp3();
+        StaticNotOverrided Sn = new StaticNotOverrided();
+        Sn.disp1();
 
     }
 }

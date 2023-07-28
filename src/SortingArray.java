@@ -7,5 +7,7 @@ public class SortingArray {
         for (int i : arr) {
             System.out.println(i);
         }
+        System.out.println(arr.getClass().getName());
+
     }
 }

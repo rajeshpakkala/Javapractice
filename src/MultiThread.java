@@ -35,7 +35,7 @@ import java.util.Scanner;
                     e.printStackTrace();
                 }
             }
-            System.out.println("process 1 ended");
+            System.out.println("process 2 ended");
 
         }
     }
@@ -47,7 +47,7 @@ import java.util.Scanner;
             System.out.println("process 3 started");
             for (int i = 65; i <= 70; i++)
             {
-                System.out.println((char) (i));
+                System.out.println((char)(i));
                 try{
                     Thread.sleep(3000);
                 }
@@ -55,7 +55,7 @@ import java.util.Scanner;
                     e.printStackTrace();
                 }
             }
-            System.out.println("process 1 ended");
+            System.out.println("process 3 ended");
 
         }
     }

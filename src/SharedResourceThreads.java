@@ -6,9 +6,10 @@ import java.util.Scanner;
         public void run()
         {
             String str=Thread.currentThread().getName();
-            if(str.equals("Banking")){
+            if(str.equals("Banking"))
+            {
                 bankdet();
-        }
+            }
             else if(str.equals("Numb"))
             {
                 numbers();

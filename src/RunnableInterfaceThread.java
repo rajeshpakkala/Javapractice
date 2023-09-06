@@ -69,7 +69,7 @@ import java.util.Scanner;
 
             Thread t1=new Thread(b);
             Thread t2=new Thread(a);
-             Thread t3=new Thread(n);
+            Thread t3=new Thread(n);
 
 
             t1.start();
